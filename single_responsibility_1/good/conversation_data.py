@@ -8,6 +8,7 @@ class ConversationData:
     """
      Responsibility of the class
      Get all the conversations
+     Acting as a main class calling the other classes
     """
     NET_API_CORE = NetApiCore()
     CONVERSATION_FACTORY = ConversationFactory()
