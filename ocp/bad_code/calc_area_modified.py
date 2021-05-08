@@ -1,5 +1,6 @@
 from rectangle import Rectangle
 from circle import Circle
+import math
 class AreaCalculatorModified:
     """
      The original area calculator class modified to accomodate different shapes other than
@@ -14,7 +15,7 @@ class AreaCalculatorModified:
         if(isinstance(shape,Rectangle)):
             self.AREA = shape.WIDTH * shape.HEIGHT
         elif(isinstance(shape,Circle)):
-            self.AREA = 3.14 * shape.RADIUS * shape.RADIUS
+            self.AREA = math.pi * shape.RADIUS * shape.RADIUS
         return self.AREA
 
 circle = Circle(8)
