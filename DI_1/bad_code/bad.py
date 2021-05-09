@@ -1,10 +1,10 @@
 """
 Problems with this example is :-
 1)Printer class is tightly coupled with book class and formatter class.
-2) Printer here prints only book that also only in A4 format because formatter class
+2)Printer here prints only book that also only in A4 format because formatter class
 denotes the a4 format.
-3) So printer class is tightly coupled with book printing in a4 format.
-4) If tomorrow I want to print a pamplet in small size,it will not be possible to do that
+3)So printer class is tightly coupled with book printing in a4 format.
+4)If tomorrow I want to print a pamplet in small size,it will not be possible to do that
 with this printer class because it directly takes book as an argument and prints it in A4 format.
 5) Printer class of this system is immobile, I cannot put this printer in the another system.
 """

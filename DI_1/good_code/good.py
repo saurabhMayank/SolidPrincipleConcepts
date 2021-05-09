@@ -2,7 +2,14 @@ from abc import ABC, abstractmethod
 
 """
 How this class structure overcomes the  problems bad.py has
-1.
+1.This class structure has Low level modules implement the abstract classes.
+2.This class structure has High Level Module having source code dependency with the
+abstract classes.
+3.So the Printer class is not tightly coupled now with low level modules book and a4formatter.
+4.Printer from this system can be easily plugged out and put into any other system.
+
+SO this is an example of Dependency Inversion. Because of Inverting the Source code dependency 
+the problem immobility of modules in the system is solved now.
 """
 
 class HasContent(ABC):
