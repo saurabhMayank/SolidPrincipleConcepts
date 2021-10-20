@@ -1,0 +1,5 @@
+1. Simple example for single responsibility is the whatsapp group examples.
+2. There is whatsapp group class inside which there is a function createWhatsapp group
+3. It should only perform the functionality of creating the whatsapp group and assigning
+admin priviledges.
+4. It should not perform other functionalities than that

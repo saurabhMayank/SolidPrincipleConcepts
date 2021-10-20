@@ -20,7 +20,7 @@ class AreaCalculator:
       ix) After sometime I add another class rotateShapes which rotates the shapes. Let's say I can rotate all the shapes but not circle and some programmer failed to add the case for circle, So in rotate all shape if circle will come it will break.
       That is fragile code.
 
-      More from this lecture of DR BOB
+      More from this lecture of Dr BOB
       https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3204s&ab_channel=FucktheCommunism
       at time 1:06:48
     """

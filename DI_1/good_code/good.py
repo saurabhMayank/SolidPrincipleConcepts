@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 """
-How this class structure overcomes the  problems bad.py has
+How this class structure overcomes the problems bad.py has
 1.This class structure has Low level modules implement the abstract classes.
 2.This class structure has High Level Module having source code dependency with the
 abstract classes.

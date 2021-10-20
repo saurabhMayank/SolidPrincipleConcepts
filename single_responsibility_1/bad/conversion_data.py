@@ -26,7 +26,7 @@ class ConversionData:
     
     def parse_and_create_conversations_from(self, data: any) -> list:
         """
-        Parse data and create array of conversation dictionaty
+        Parse data and create array of conversation dictionary
         """
         conversation_dict = [{'1': 'John'}]
         return conversation_dict

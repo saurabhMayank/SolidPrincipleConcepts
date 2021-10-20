@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 """
 Problems with this class design is 
 1. Gesture abstract class has lot of methods.
-2. Different Concrete classes inherit the abstract concrete class.
+2. Different Concrete classes inherit the abstract class.
 3. Some classes concrete do not need all the methods of the Gesture abstract class
 but they will have to anyway define it.
 This will cause unnecessary bugs and make the code fragile.

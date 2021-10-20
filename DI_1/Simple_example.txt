@@ -1,0 +1,20 @@
+https://medium.com/@kedren.villena/simplifying-dependency-inversion-principle-dip-59228122649a
+
+Great Link explaining dependency inversion with a simple example.
+
+1. Let's say we have a calculator class which has operation add and operation subtract.
+2. Let's say tomorrow one more requirement comes to do multiply operation.
+3. But Classes should be closed for modification.
+4. So what should be a better class design for this architecture.
+
+There should be a ICalculatorOperation interface which should have a method Calculate in it.
+
+1. The calculator class and
+2. All the seperate operation class should implement that interface.
+3. Create an object of the ICalculatorOperation class inside the Calculator class.
+4. All the individual operation classes should implement the calculate method.
+5. Calculate class should also implement calculator method.
+6. It should inside it call calculatoroperation.calculate.
+7. At the run time pass the right calculator method.
+
+
