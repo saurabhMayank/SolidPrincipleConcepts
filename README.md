@@ -14,5 +14,7 @@ iv)4symptoms of bad code artilce => https://www.excella.com/insights/top-4-sympt
 v)Presentation Link => https://docs.google.com/presentation/d/1jwx1rgE5A5bMb_9BtiKsziT3BWy9QxYjC0aic4oYR2o/edit#slide=id.gcd3ba15b91_0_134
 
 vI) https://refactoring.guru/
+
 vii) http://blog.cleancoder.com/
+
 viii) https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
