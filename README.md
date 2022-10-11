@@ -13,7 +13,7 @@ iv)4symptoms of bad code artilce => https://www.excella.com/insights/top-4-sympt
 
 v)Presentation Link => https://docs.google.com/presentation/d/1jwx1rgE5A5bMb_9BtiKsziT3BWy9QxYjC0aic4oYR2o/edit#slide=id.gcd3ba15b91_0_134
 
-vI) https://refactoring.guru/
+vI) https://refactoring.guru/ (this can be bought from the Upskilling Bonus)
 
 vii) http://blog.cleancoder.com/
 
