@@ -15,8 +15,9 @@ Lets do you do bigbasket -> And the guy delivers you the depdencies
 i) You can now solely focus on making the sandwich
 ii) You are solely focussed on preparing for the sandwich 
 -> Setting the sandwich maker, getting the sauces & veggies ready
+
 iii) When the big basket guy comes with depdencies of bread, ham and cheese 
--> You inject those dependencies -> In your sandwich
+-> You inject those dependencies -> In your sandwich making process
 
 IF NOT USING DEPENDENCY INJECTION CONCEPT
 => Then I have to myself take care of getting bread, ham and cheese
@@ -121,7 +122,7 @@ Here person and Job class are very loosely coupled
 i) Job class Object is passed as an argument to the constructor of Person class
 ii) When person class is instantiated -> Job object is passed in as argument
 iii) Different types of job object is passed easily to Person class
-iv) Any changes in the Job class -> will not require any changes in the function class
+iv) Any changes in the Job class -> will not require any changes in the Person class
 
 Person class is not bothered by -> Code changes in the Job Class
 """
