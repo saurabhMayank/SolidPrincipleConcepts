@@ -8,6 +8,13 @@ class AreaCalculatorModified:
 
      Now instead of just rectangle object, the area calculator method takes shape object
      and it checks for possible match with the help of if else condition
+
+
+     The more the shapes increases, the if else cases will be added to this particular function
+     Problems in that
+     -> Same function modified everytime, everytime a new responsibility added
+     -> As different responsibilties added, no seperation of concerns, function can be modified for multiple reasons
+     -> Leading to increases chances of bug, too much logic crammed in one function, leading to poor devX
     """
     AREA = 0
     
