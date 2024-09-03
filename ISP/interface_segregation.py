@@ -5,9 +5,11 @@ Classes should not be depend on methods in the interface which they do not use. 
 
 Why it is important ? Let's break it down to the first principle ?
 
-Remember SRP -> Single Responsibility of Class and Function, Class and Function should have 1 reason to change. So that class and function are not fragile
+Remember SRP -> Single Responsibility of Class and Function, Class and Function should have 1 reason to change. 
+So that class and function are not fragile
 
-ISP Agenda -> Interfaces should be small and should only have methods that the implementing classes needs, it should not have methods that classes implementing it have no use
+ISP Agenda -> Interfaces should be small and should only have methods that the implementing classes needs, 
+it should not have methods that classes implementing it have no use
 
 It is important to maintain loose coupling
 
