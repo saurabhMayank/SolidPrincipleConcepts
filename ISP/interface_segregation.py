@@ -1,7 +1,8 @@
 """
 What is interface segregation ?
 
-Classes should not be depend on methods in the interface which they do not use. This principle is used to solve the fat interfaces problem
+Classes should not be depend on methods in the interface which they do not use. This principle is used to solve the fat 
+interfaces problem
 
 Why it is important ? Let's break it down to the first principle ?
 
